@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: api
+  profiles:
+    active: developement
+  cloud:
+    config:
+      uri: http://localhost:8888

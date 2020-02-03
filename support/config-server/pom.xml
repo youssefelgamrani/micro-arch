@@ -10,7 +10,6 @@
     </parent>
     <groupId>com</groupId>
     <artifactId>config-server</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>config-server</name>
     <description>Configuration server</description>
 
