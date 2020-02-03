@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support/config-server/config-server.iml" filepath="$PROJECT_DIR$/support/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/micro-arch.iml" filepath="$PROJECT_DIR$/.idea/micro-arch.iml" />
+    </modules>
+  </component>
+</project>

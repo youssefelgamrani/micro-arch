@@ -10,12 +10,15 @@
     </parent>
     <groupId>com</groupId>
     <artifactId>microarch</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <description>Supporting services</description>
+    <name>Socle Microservices</name>
+    <description>devteam</description>
 
 
     <modules>
-        <module>config-server</module>
+        <module>support</module>
+        <module>api</module>
     </modules>
 
     <dependencies>
