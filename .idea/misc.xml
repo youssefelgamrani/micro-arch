@@ -7,7 +7,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/support/config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/api/pom.xml" />
+        <option value="$PROJECT_DIR$/api-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/api-producer/pom.xml" />
       </list>
     </option>
   </component>

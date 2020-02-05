@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: api-producer
+  cloud:
+    config:
+      uri: http://localhost:8888
+    consul:
+      discovery:
+        register-health-check: true
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: localhost:8080

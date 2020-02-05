@@ -11,8 +11,8 @@
     <groupId>com</groupId>
     <artifactId>microarch</artifactId>
     <packaging>pom</packaging>
-    <name>Supporting services</name>
-    <description>support</description>
+    <name>Socle Microservices</name>
+    <description>devteam</description>
 
 
     <modules>
