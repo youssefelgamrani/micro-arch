@@ -9,3 +9,12 @@ spring:
     consul:
       discovery:
         register-health-check: true
+  boot:
+    admin:
+      client:
+        url: http://localhost:8887
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

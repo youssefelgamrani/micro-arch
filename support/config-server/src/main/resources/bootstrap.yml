@@ -1,6 +1,11 @@
 spring:
   application:
     name: config-server
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 ---
 spring:
   profiles: default

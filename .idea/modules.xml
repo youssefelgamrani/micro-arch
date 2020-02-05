@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/api-consumer/api-consumer.iml" filepath="$PROJECT_DIR$/api-consumer/api-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/support/config-server/config-server.iml" filepath="$PROJECT_DIR$/support/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/micro-arch.iml" filepath="$PROJECT_DIR$/.idea/micro-arch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support/monitoring-server/monitoring-server.iml" filepath="$PROJECT_DIR$/support/monitoring-server/monitoring-server.iml" />
     </modules>
   </component>
 </project>
