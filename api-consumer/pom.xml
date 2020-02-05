@@ -3,14 +3,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.2.4.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<groupId>com.factory</groupId>
+		<artifactId>microarch</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>com</groupId>
 	<artifactId>api-consumer</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>api-consumer</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -21,6 +18,11 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.factory</groupId>
+			<artifactId>api-commons</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>

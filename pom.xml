@@ -8,17 +8,17 @@
         <version>2.2.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com</groupId>
+    <groupId>com.factory</groupId>
     <artifactId>microarch</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Socle Microservices</name>
     <description>devteam</description>
-
-
     <modules>
         <module>support</module>
         <module>api-producer</module>
+        <module>api-commons</module>
+        <module>api-consumer</module>
     </modules>
 
     <dependencies>

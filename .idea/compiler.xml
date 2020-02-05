@@ -9,15 +9,19 @@
         <module name="config-server" />
         <module name="monitoring-server" />
         <module name="api-consumer" />
+        <module name="api-commons" />
         <module name="api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api" target="13" />
       <module name="api-client" target="13" />
+      <module name="api-commons" target="1.8" />
       <module name="api-consumer" target="1.8" />
       <module name="config-server" target="13" />
       <module name="discovery-server" target="13" />
+      <module name="micro-arch" target="1.8" />
+      <module name="microarch" target="1.8" />
       <module name="monitoring-server" target="13" />
       <module name="sentinel-dashboard" target="1.8" />
     </bytecodeTargetLevel>
@@ -26,6 +30,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api" options="-parameters" />
       <module name="api-client" options="-parameters" />
+      <module name="api-commons" options="-parameters" />
       <module name="api-consumer" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="discovery-server" options="-parameters" />
