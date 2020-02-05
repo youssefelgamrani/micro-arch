@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: localhost:8080
+    consul:
+      discovery:
+        register-health-check: true

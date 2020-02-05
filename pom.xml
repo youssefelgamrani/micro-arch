@@ -18,7 +18,7 @@
 
     <modules>
         <module>support</module>
-        <module>api</module>
+        <module>api-producer</module>
     </modules>
 
     <dependencies>
@@ -40,7 +40,6 @@
             </exclusions>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
