@@ -10,8 +10,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableAdminServer
 public class MonitoringServerApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(MonitoringServerApplication.class, args);
-    }
-
+  public static void main(String[] args) {
+    SpringApplication.run(MonitoringServerApplication.class, args);
+  }
 }
