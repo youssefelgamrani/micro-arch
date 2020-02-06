@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/support/monitoring-server/pom.xml" />
         <option value="$PROJECT_DIR$/api-commons/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/support/gateway-server/pom.xml" />
       </list>
     </option>
   </component>

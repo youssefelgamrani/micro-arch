@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="api" />
         <module name="config-server" />
-        <module name="monitoring-server" />
         <module name="api-consumer" />
         <module name="api-commons" />
-        <module name="api" />
+        <module name="monitoring-server" />
+        <module name="gateway-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="api-consumer" target="1.8" />
       <module name="config-server" target="13" />
       <module name="discovery-server" target="13" />
+      <module name="gateway-server" target="13" />
       <module name="micro-arch" target="1.8" />
       <module name="microarch" target="1.8" />
       <module name="monitoring-server" target="13" />
@@ -34,6 +36,7 @@
       <module name="api-consumer" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="discovery-server" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
       <module name="monitoring-server" options="-parameters" />
     </option>
   </component>

@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: gateway-server
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: account-service-route
+          uri: lb://api-consumer #
+          predicates:
+            - Path=/consumer/**
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+server:
+  port: 8090
