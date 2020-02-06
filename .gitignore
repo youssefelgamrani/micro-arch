@@ -1,5 +1,5 @@
 support/consul
 /support/consul/**
 .idea/*
-.idea
+/.idea
 !/.mvn/wrapper/maven-wrapper.jar
